@@ -9,6 +9,6 @@ function calculate(start, end, cores) {
       start: i,
       end: Math.min(i + step, end)
     })
-    }
-    return output
-    }
+  }
+  return output
+}
